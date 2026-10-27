@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aveniq Digital — junior web development portfolio and digital solutions.">
+  <meta name="theme-color" content="#102744">
+  <title>Aveniq Digital | Web Development</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Aveniq Digital, home">
+        <span class="brand-mark" aria-hidden="true">AD</span>
+        <span class="brand-name">Aveniq Digital</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false"
+        aria-controls="primary-navigation" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Open to suitable opportunities</p>
+          <h1>Digital ideas,<br><span class="highlight">built for the web.</span></h1>
+          <p class="hero-title">Web Development <span aria-hidden="true">·</span> Digital Solutions</p>
+          <p class="hero-description">
+            I am building my skills in HTML, CSS, and JavaScript to create clear, responsive,
+            user-friendly websites. Aveniq Digital represents my goal of helping people and
+            small businesses build a professional online presence while I continue learning.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my portfolio <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+          <ul class="quick-facts" aria-label="Professional summary">
+            <li><span class="fact-icon" aria-hidden="true">⌘</span> Front-end fundamentals</li>
+            <li><span class="fact-icon" aria-hidden="true">✦</span> Responsive website layouts</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-label="Decorative illustration of a code editor">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-card-top">
+              <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+              <span>hello-world.js</span>
+              <span class="code-lock" aria-hidden="true">◇</span>
+            </div>
+            <div class="code-content" aria-label="Example JavaScript code">
+              <p><span class="line-number">01</span> <span class="code-purple">const</span> developer = {</p>
+              <p><span class="line-number">02</span> &nbsp; name: <span class="code-green">'Lina'</span>,</p>
+              <p><span class="line-number">03</span> &nbsp; skills: [</p>
+              <p><span class="line-number">04</span> &nbsp;&nbsp; <span class="code-green">'HTML'</span>,</p>
+              <p><span class="line-number">05</span> &nbsp;&nbsp; <span class="code-green">'CSS'</span>,</p>
+              <p><span class="line-number">06</span> &nbsp;&nbsp; <span class="code-green">'JavaScript'</span></p>
+              <p><span class="line-number">07</span> &nbsp; ],</p>
+              <p><span class="line-number">08</span> &nbsp; readyToLearn: <span class="code-orange">true</span></p>
+              <p><span class="line-number">09</span> };</p>
+            </div>
+            <div class="code-card-footer"><span class="footer-pulse"></span> Building one step at a time</div>
+          </div>
+          <div class="floating-chip chip-html"><span aria-hidden="true">&lt;/&gt;</span> HTML</div>
+          <div class="floating-chip chip-css"><span aria-hidden="true">✦</span> CSS</div>
+          <div class="floating-chip chip-js"><span aria-hidden="true">JS</span> JavaScript</div>
+        </div>
+      </div>
+      <div class="hero-bottom-shape" aria-hidden="true"></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">A little about me</p>
+          <h2>Curious by nature.<br><span class="highlight">Creative by design.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I have studied web development fundamentals, including building websites with HTML, CSS, and JavaScript.
+          </p>
+          <p>
+            I'm currently looking for opportunities to strengthen my skills, contribute to
+            useful digital projects, and learn from real-world challenges. I value thoughtful
+            design, clear communication, and steady improvement.
+          </p>
+          <div class="education-card">
+            <div class="education-icon" aria-hidden="true">▤</div>
+            <div>
+              <p class="card-kicker">Education</p>
+              <h3>Web Development Studies</h3>
+              <p>Studied website development fundamentals, including HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What I'm learning and using</p>
+          <h2>My <span class="highlight">skills</span></h2>
+          <p>Core web technologies and design tools I can use to create and improve digital experiences.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-symbol html-symbol" aria-hidden="true">&lt;/&gt;</div>
+            <h3>HTML</h3>
+            <p>Structuring pages with clear, meaningful content and accessible elements.</p>
+            <span class="skill-tag">Web structure</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-symbol css-symbol" aria-hidden="true">✳</div>
+            <h3>CSS</h3>
+            <p>Styling layouts, choosing visual details, and adapting pages for different screens.</p>
+            <span class="skill-tag">Visual styling</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-symbol js-symbol" aria-hidden="true">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding basic interactivity and making web pages respond to user actions.</p>
+            <span class="skill-tag">Interactivity</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">How I can help</p>
+          <h2>Services I'm ready <span class="highlight">to offer</span></h2>
+          <p>Simple web solutions for individuals and small businesses building their online presence.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <div class="service-icon" aria-hidden="true">⌘</div>
+            <h3>Website development</h3>
+            <p>Simple, attractive websites built around your content and goals.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <div class="service-icon" aria-hidden="true">▱</div>
+            <h3>Landing pages</h3>
+            <p>Focused pages that present a service, idea, or business clearly.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <div class="service-icon" aria-hidden="true">↻</div>
+            <h3>Website updates</h3>
+            <p>Small content, layout, and styling updates to existing websites.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Work in progress</p>
+          <h2>Practice <span class="highlight">projects</span></h2>
+          <p>These are planned portfolio projects. Demo and source-code links will be added after each project is built and tested.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-placeholder">
+            <div class="project-preview preview-landing" aria-hidden="true">
+              <div class="preview-browser"><span></span><span></span><span></span></div>
+              <div class="preview-layout">
+                <div class="preview-lines"><i></i><i></i><i></i><b></b></div>
+                <div class="preview-illustration"><span>✦</span></div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-status">Planned project</span>
+              <h3>Small Business Landing Page</h3>
+              <p>A responsive sample landing page for a fictional business, focused on clear content and a contact call-to-action.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive design</span></div>
+              <p class="project-note">Demo link will be added after completion.</p>
+            </div>
+          </article>
+          <article class="project-card project-placeholder">
+            <div class="project-preview preview-todo" aria-hidden="true">
+              <div class="todo-window">
+                <div class="todo-heading"></div>
+                <div class="todo-row"><span></span><i></i></div>
+                <div class="todo-row"><span></span><i></i></div>
+                <div class="todo-row"><span></span><i></i></div>
+                <div class="todo-add">+</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-status">Planned project</span>
+              <h3>To-Do List App</h3>
+              <p>A small JavaScript app to add, complete, and remove tasks, demonstrating basic interaction and state handling.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <p class="project-note">Demo link will be added after completion.</p>
+            </div>
+          </article>
+          <article class="project-card project-placeholder">
+            <div class="project-preview preview-landing" aria-hidden="true">
+              <div class="preview-browser"><span></span><span></span><span></span></div>
+              <div class="preview-layout"><div class="preview-lines"><i></i><i></i><i></i><b></b></div><div class="preview-illustration"><span>⌘</span></div></div>
+            </div>
+            <div class="project-body">
+              <span class="project-status">Planned project</span>
+              <h3>Responsive Business Website</h3>
+              <p>A planned practice website for a small business, designed to present services clearly on mobile and desktop.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <p class="project-note">Demo link will be added after completion.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-panel">
+        <div class="contact-copy">
+          <p class="eyebrow eyebrow-light">Let's connect</p>
+          <h2>Have a project or opportunity in mind?</h2>
+          <p>I'm open to suitable junior web development opportunities, freelance projects, and collaborations where I can contribute and keep learning.</p>
+        </div>
+        <div class="contact-action">
+          <a class="button button-white" href="mailto:aveniqd@gmail.com?subject=Web%20Development%20Opportunity">Email me <span aria-hidden="true">↗</span></a>
+          <p><a href="mailto:aveniqd@gmail.com">aveniqd@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#home">Aveniq Digital</a>
+      <p>Web Development &amp; Digital Solutions</p>
+      <p class="copyright">© <span id="current-year">2026</span> Aveniq Digital. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
